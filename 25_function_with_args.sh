@@ -1,9 +1,12 @@
 #!/bin/bash
 
+set -x
+
+
 name()
 {
 	echo "name is $1"
-	echo "age is $2"
+	echo "age is $2i"
 }
 
 name ramesh 44
